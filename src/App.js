@@ -17,6 +17,11 @@ import NameForm from './component/NameForm';
 import {FunNameForm} from './component/FunNameForm';
 import RegisterForm from './component/RegisterForm';
 import Lifecycle from './component/Lifecycle';
+import { Effect } from './component/Effect';
+import { EffectChange } from './component/EffectChange';
+import {GETAPI} from './component/GETAPI';
+import {GetWithVal} from './component/GetWithVal';
+import { PostForm } from './component/PostForm';
 
 function App() {
   let obj={
@@ -49,7 +54,12 @@ function App() {
     {/* <NameForm /> */}
     {/* <FunNameForm /> */}
     {/* <RegisterForm /> */}
-    <Lifecycle />
+    {/* <Lifecycle /> */}
+    {/* <Effect /> */}
+    {/* <EffectChange /> */}
+    {/* <GETAPI /> */}
+    <GetWithVal />
+    {/* <PostForm /> */}
    </div>
   );
 }
